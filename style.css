@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.hero__section {
+    padding: 3rem;
+}
+
+.hero__container {
+    width: 100%;
+    min-height: 50vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.hero__details {
+    margin-left: 3rem;
+    width: 50%;
+}
+
+.hero__title {
+    width: 400px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.hero__summery {
+    width: 400px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.hero__button {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: red;
+    display: inline-flex;
+    border-radius: 5px;
+}
+
+.hero__button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+
+.hero__button .bx {
+    font-size: 25px;
+}
+
+.hero__image {
+    align-self: flex-end;
+    display: flex;
+    align-items: end;
+    width: 400px;
+}
+
+.hero__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.match__section {
+    padding: 5rem 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.button__container {
+    width: 20%;
+    height: 300px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.button {
+    min-width: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.button a {
+    color: #333;
+}
+
+.button:active {
+    background-color: #eee;
+    color: #333;
+}
+
+.button:hover {
+    background-color: red;
+    color: #FFF;
+}
+
+.match__container {
+    margin-left: 1rem;
+    width: 80%;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.match__summery {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.today__match {
+    display: flex;
+    align-items: center;
+}
+
+.country__name {
+    line-height: 40px;
+
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.country__flag {
+    width: 100px;
+}
+
+.vs {
+    padding: 0 1rem;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.country__flag img {
+    width: 100%;
+}
+
+.footer__container {
+    width: 100%;
+    min-height: 200px;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+}
+
+.footer__title {
+    padding: 1rem;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer__underline {
+    padding: 0 4rem;
+    width: 80%;
+    border-bottom: 2px solid gray;
+    /* background-color: grey; */
+}
+
+.footer__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 1rem;
+}
+
+/* Blog Page  */
+.match__summery {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.player__img {
+    width: 300px;
+    height: 150px;
+}
+
+.player__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.transfer__button {
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.transfer__button a {
+    padding: 2px 5px;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.transfer__text {
+    padding-left: 10px;
+}
+
+.time__chat {
+    margin: 1rem 0; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.time__cmnt {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time__cmnt img {
+    width: 100%;
+}
+
+.time__part {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat__part {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.number {
+    padding: 0 1rem;
+}
